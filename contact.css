@@ -1,0 +1,99 @@
+body{
+    background-image: url(game.jpg);
+}
+.parent{
+   position: relative;
+   width: 100%;
+   height: 10%;
+   padding-left:30px;
+  
+}
+nav{
+    display: flex;
+    width: 95%;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-flex;
+    margin: 20px 20px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li a:hover{
+    color: rgb(111, 171, 66);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+    color: #e8791e;
+}
+form {
+    background-color: #e1e1e1;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin-bottom:25px;
+    color: #000000;
+    
+}
+.main input,
+.main select{
+    border: 1px solid #777;
+    border-radius: 2px;            
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+.h1{
+    color: #ffffff;
+}
+footer{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+}
+.icons a{
+    color: rgb(255, 255, 255);
+}
+
+.icons a:hover{
+    background: black;
+    color: rgb(35, 88, 247);
+}
+@media (max-width:1000px){
+    .main{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:1000px){
+    .parent{
+        flex-direction: column;
+    }
+
+}
